@@ -1,7 +1,7 @@
 <?php
-define("DB_HOST", "localhost");
-define("DB_USER", "root");
-define("DB_PASS", "");
-define("DB_NAME", "php_mvc_banhang");
+define("DB_HOST", "remotemysql.com");
+define("DB_USER", "7GMjj9otaw");
+define("DB_PASS", "rTMw5fuM2q");
+define("DB_NAME", "7GMjj9otaw");
 
 ?>
