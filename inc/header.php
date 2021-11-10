@@ -191,7 +191,7 @@
 		
 				$login_check = Session::get('customer_login'); 
 				if($login_check){
-					echo '<li><a href="wishlist.php">favorite product</a> </li>';
+					echo '<li><a href="wishlist.php">Favorite product</a> </li>';
 				}
 					
 			?>

@@ -59,8 +59,6 @@
 					<form action="" method="post">
 						<input type="number" class="buyfield" name="quantity" value="1" min="1"/>
 						<input type="submit" class="buysubmit" name="submit" value="Buy Now"/>
-
-
 					</form>		
 					<?php
 						if(isset($insertCart)){

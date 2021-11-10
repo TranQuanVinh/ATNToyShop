@@ -21,8 +21,9 @@
 				<div class="grid_1_of_4 images_1_of_4">
 					 <a href="details.php?proid=<?php echo $result['productId'] ?>"><img src="admin/uploads/<?php echo $result['image'] ?>" width="150px" alt="" /></a>
 					 <h2><?php echo $result['productName'] ?></h2>
+					 <p><?php echo $fm-> textShorten($result['productName'],30) ?></p>
 					 <p><span class="price"><?php echo $fm->format_currency($result['price'])." "."USD" ?></span></p>
-				     <div class="button"><span><a href="details.php?proid=<?php echo $result['productId'] ?>" class="details">Detals</a></span></div>
+				     <div class="button"><span><a href="details.php?proid=<?php echo $result['productId'] ?>" class="details">Details</a></span></div>
 				</div>
 				<?php
 				}
@@ -45,7 +46,7 @@
 				<div class="grid_1_of_4 images_1_of_4">
 					 <a href="details.php?proid=<?php echo $result_new['productId'] ?>"><img src="admin/uploads/<?php echo $result_new['image'] ?>" alt="" /></a>
 					 <h2><?php echo $result_new['productName'] ?></h2>
-					
+					 <p><?php echo $fm-> textShorten($result['productName'],30) ?></p>
 					 <p><span class="price"><?php echo $fm->format_currency($result_new['price'])." "."USD" ?></span></p>
 				     <div class="button"><span><a href="details.php?proid=<?php echo $result_new['productId'] ?>" class="details">Details</a></span></div>
 				</div>
