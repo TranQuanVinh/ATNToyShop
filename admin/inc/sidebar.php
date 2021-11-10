@@ -4,37 +4,37 @@
             <ul class="section menu">
                 <li><a class="menuitem">Slider</a>
                     <ul class="submenu">
-                        <li><a href="slideradd.php">Thêm slider</a> </li>
-                        <li><a href="sliderlist.php">Tất cả slider</a> </li>
+                        <li><a href="slideradd.php">Add slider</a> </li>
+                        <li><a href="sliderlist.php">All slider</a> </li>
                     </ul>
                 </li>
-                <li><a class="menuitem">Danh mục sản phẩm</a>
+                <li><a class="menuitem">Product category</a>
                     <ul class="submenu">
-                        <li><a href="catadd.php">Thêm danh mục</a> </li>
-                        <li><a href="catlist.php">Danh sách sản phẩm</a> </li>
+                        <li><a href="catadd.php">Add category</a> </li>
+                        <li><a href="catlist.php">List category</a> </li>
                     </ul>
                 </li>
-                <li><a class="menuitem">Thương hiệu sản phẩm</a>
+                <li><a class="menuitem">Product brand</a>
                     <ul class="submenu">
-                        <li><a href="brandadd.php">Thêm thương hiệu</a> </li>
-                        <li><a href="brandlist.php">Danh sách thương hiệu</a> </li>
+                        <li><a href="brandadd.php">Add product brand</a> </li>
+                        <li><a href="brandlist.php">List product brand</a> </li>
                     </ul>
                 </li>
-                <li><a class="menuitem">Sản phẩm</a>
+                <li><a class="menuitem">Product</a>
                     <ul class="submenu">
-                        <li><a href="productadd.php">Thêm sản phẩm</a> </li>
-                        <li><a href="productlist.php">Liệt kê sản phẩm</a> </li>
+                        <li><a href="productadd.php">Add product</a> </li>
+                        <li><a href="productlist.php">List product</a> </li>
                     </ul>
                 </li>
-                 <li><a class="menuitem">Đơn hàng</a>
+                 <li><a class="menuitem">Order</a>
                     <ul class="submenu">
-                        <li><a href="inbox.php">Liệt kê đơn hàng</a> </li>
+                        <li><a href="inbox.php">List order</a> </li>
                       
                     </ul>
                 </li>
-                 <li><a class="menuitem">Bình luận</a>
+                 <li><a class="menuitem">Comment</a>
                     <ul class="submenu">
-                        <li><a href="commentlist.php">Liệt kê bình luận</a> </li>
+                        <li><a href="commentlist.php">List comment</a> </li>
                       
                     </ul>
                 </li>

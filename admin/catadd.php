@@ -13,7 +13,7 @@
 <?php  ?>
         <div class="grid_10">
             <div class="box round first grid">
-                <h2>Thêm danh mục</h2>
+                <h2>Add category</h2>
 
                <div class="block copyblock"> 
                  <?php
@@ -25,7 +25,7 @@
                     <table class="form">					
                         <tr>
                             <td>
-                                <input type="text" name="catName" placeholder="Làm ơn thêm danh mục sản phẩm..." class="medium" />
+                                <input type="text" name="catName" placeholder="Category name..." class="medium" />
                             </td>
                         </tr>
 						<tr> 

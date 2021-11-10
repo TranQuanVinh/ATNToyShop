@@ -40,7 +40,7 @@
 			</div>
 		</form><!-- form -->
 		<div class="button">
-			<a href="#">Training with live project</a>
+			<a href="#">ATN Company</a>
 		</div><!-- button -->
 	</section><!-- content -->
 </div><!-- container -->

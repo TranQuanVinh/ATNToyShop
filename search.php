@@ -16,7 +16,7 @@
     	<div class="content_top">
     		
     		<div class="heading">	
-    		<h3>Từ khóa tìm kiếm : <?php echo $tukhoa ?></h3>
+    		<h3>Search product : <?php echo $tukhoa ?></h3>
     		</div>
     		
     		<div class="clear"></div>
@@ -33,7 +33,7 @@
 					 <a href="preview-3.php"><img src="admin/uploads/<?php echo $result['image'] ?>" width="200px" alt="" /></a>
 					 <h2><?php echo $result['productName'] ?></h2>
 					 <p><?php echo $fm->textShorten($result['product_desc'],50); ?></p>
-					 <p><span class="price"><?php echo $fm->format_currency($result['price'])." "."VNĐ" ?></span></p>
+					 <p><span class="price"><?php echo $fm->format_currency($result['price'])." "."USD" ?></span></p>
 				     <div class="button"><span><a href="details.php?proid=<?php echo $result['productId'] ?>" class="details">Details</a></span></div>
 				</div>
 			<?php

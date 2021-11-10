@@ -13,7 +13,7 @@
 ?>
 <div class="grid_10">
     <div class="box round first grid">
-        <h2>Thêm sản phẩm</h2>
+        <h2>Add product</h2>
         <div class="block">    
          <?php
 

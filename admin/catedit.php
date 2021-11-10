@@ -20,7 +20,7 @@
 <?php  ?>
         <div class="grid_10">
             <div class="box round first grid">
-                <h2>Sửa danh mục</h2>
+                <h2>Update category</h2>
 
                <div class="block copyblock"> 
                  <?php
@@ -38,7 +38,7 @@
                     <table class="form">					
                         <tr>
                             <td>
-                                <input type="text" value="<?php echo $result['catName'] ?>" name="catName" placeholder="Sửa danh mục sản phẩm..." class="medium" />
+                                <input type="text" value="<?php echo $result['catName'] ?>" name="catName" placeholder="Update category..." class="medium" />
                             </td>
                         </tr>
 						<tr> 

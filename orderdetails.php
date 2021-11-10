@@ -53,7 +53,7 @@
 								<td><?php echo $i; ?></td>
 								<td><?php echo $result['productName'] ?></td>
 								<td><img src="admin/uploads/<?php echo $result['image'] ?>" alt=""/></td>
-								<td><?php echo $fm->format_currency($result['price'])." "."VNĐ" ?></td>
+								<td><?php echo $fm->format_currency($result['price'])." "."USD" ?></td>
 								<td>
 									
 										

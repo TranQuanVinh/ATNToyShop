@@ -75,9 +75,9 @@
 							<option value="null">Select a Country</option>   
 
 							<option value="hcm">TPHCM</option>
-							<option value="na">Nghệ An</option>
-							<option value="hn">Hà Nội</option>
-							<option value="dn">Đà Nẳng</option>
+							<option value="na">Ca Mau</option>
+							<option value="hn">Can Tho</option>
+							<option value="dn">Ha Noi</option>
 							
 
 		         </select>

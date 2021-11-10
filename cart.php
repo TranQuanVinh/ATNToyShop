@@ -57,7 +57,7 @@
 							<tr>
 								<td><?php echo $result['productName'] ?></td>
 								<td><img src="admin/uploads/<?php echo $result['image'] ?>" alt=""/></td>
-								<td><?php echo $fm->format_currency($result['price'])." "."VNĐ" ?></td>
+								<td><?php echo $fm->format_currency($result['price'])." "."USD" ?></td>
 								<td>
 									<form action="" method="post">
 										<input type="hidden" name="cartId" value="<?php echo $result['cartId'] ?>"/>
@@ -67,9 +67,9 @@
 								</td>
 								<td><?php
 								$total = $result['price'] * $result['quantity'];
-								echo $fm->format_currency($total)." "."VNĐ";
+								echo $fm->format_currency($total)." "."USD";
 								 ?></td>
-								<td><a onclick="return confirm('Bạn có muốn xóa không?');" href="?cartid=<?php echo $result['cartId'] ?>">Xóa</a></td>
+								<td><a onclick="return confirm('Do you want to delete?');" href="?cartid=<?php echo $result['cartId'] ?>">Delete</a></td>
 							</tr>
 						<?php
 							$subtotal += $total;
@@ -88,7 +88,7 @@
 								<th>Sub Total : </th>
 								<td><?php 
 
-									echo $fm->format_currency($subtotal)." "."VNĐ";
+									echo $fm->format_currency($subtotal)." "."USD";
 									Session::set('sum',$subtotal);
 									Session::set('qty',$qty);
 								?></td>
@@ -103,7 +103,7 @@
 
 								$vat = $subtotal * 0.1;
 								$gtotal = $subtotal + $vat;
-								echo $fm->format_currency($gtotal)." "."VNĐ";
+								echo $fm->format_currency($gtotal)." "."USD";
 								?></td>
 							</tr>
 					   </table>
@@ -119,13 +119,13 @@
 					$check_cart = $ct->check_cart();
 					if(Session::get('customer_id')==true && $check_cart){ 
 					?>
-						<a href="payment.php"> Thanh toán</a>
+						<a href="payment.php"> Payment </a>
 					
 					</div>
 					<?php
 					}else{ 
 					?>
-						<a class="muahang" style="text-align: right;" href="login.php"> Mua hàng</a>
+						<a class="muahang" style="text-align: right;" href="login.php"> Buy product</a>
 					<?php
 					} 
 					?>

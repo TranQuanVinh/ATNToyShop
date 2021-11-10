@@ -21,7 +21,7 @@ include_once ($filepath.'/../helpers/format.php');
 <?php  ?>
         <div class="grid_10">
             <div class="box round first grid">
-                <h2>Sửa danh mục</h2>
+                <h2>Edit customer</h2>
 
                <div class="block copyblock"> 
                 

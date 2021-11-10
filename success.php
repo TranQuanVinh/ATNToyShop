@@ -31,15 +31,15 @@ p.success_note {
 			 	}
 			 }
 			?>
-			<p class="success_note">Tổng tiền đơn hàng bạn đã đặt mua : <?php
+			<p class="success_note">Total amount of the order you ordered : <?php
 
 			$vat = $amount * 0.1;
 			$total = $vat + $amount;
-			echo $fm->format_currency($total). ' VNĐ';
+			echo $fm->format_currency($total). ' USD';
 
 
 			 ?> </p>
-			<p class="success_note">Chúng tôi sẽ liên hệ bạn sớm ,xem chi tiết đơn hàng của bạn tại đây <a href="orderdetails.php">Click Here</a></p>
+			<p class="success_note">We will contact you soon, see your order details here <a href="orderdetails.php">Click Here</a></p>
  		</div>
 
  	</div>

@@ -23,16 +23,16 @@
 			$tenbinhluan = $_POST['tennguoibinhluan'];
 			$binhluan = $_POST['binhluan'];
 			if($tenbinhluan=='' || $binhluan==''){
-				$alert = "<span class='error'>Không để trống các trường</span>";
+				$alert = "<span class='error'>Do not leave fields blank</span>";
 				return $alert;
 			}else{
 				$query = "INSERT INTO tbl_binhluan(tenbinhluan,binhluan,product_id) VALUES('$tenbinhluan','$binhluan','$product_id')";
 					$result = $this->db->insert($query);
 					if($result){
-						$alert = "<span class='success'>Bình luận đã gửi</span>";
+						$alert = "<span class='success'>Comment sent</span>";
 						return $alert;
 					}else{
-						$alert = "<span class='error'>Bình luận không thành công</span>";
+						$alert = "<span class='error'>Comment failed</span>";
 						return $alert;
 				}
 			}
@@ -41,10 +41,10 @@
 			$query = "DELETE FROM tbl_binhluan where binhluan_id = '$id'";
 			$result = $this->db->delete($query);
 			if($result){
-				$alert = "<span class='success'>Xóa bình luận thành công</span>";
+				$alert = "<span class='success'>Comment deleted successfully</span>";
 				return $alert;
 			}else{
-				$alert = "<span class='error'>Xóa bình luận không thành công</span>";
+				$alert = "<span class='error'>Comment deletion failed</span>";
 				return $alert;
 			}
 		}
@@ -99,7 +99,7 @@
 					Session::set('customer_login',true);
 					Session::set('customer_id',$value['id']);
 					Session::set('customer_name',$value['name']);
-					$alert = "<span class='success'>Đăng nhập thành công <a href='payment.php'>Đến trang thanh toán</a></span>";
+					$alert = "<span class='success'>Logged in successfully <a href='payment.php'>Go to the payment page</a></span>";
 						return $alert;
 				}else{
 					$alert = "<span class='error'>Email or Password doesn't match</span>";

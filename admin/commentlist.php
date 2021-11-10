@@ -15,7 +15,7 @@
 ?>
 <div class="grid_10">
     <div class="box round first grid">
-        <h2>Bình luận</h2>
+        <h2>Comment</h2>
         <div class="block"> 
         <?php
         if(isset($delcomment)){
@@ -27,8 +27,8 @@
 			<thead>
 				<tr>
 					<th>ID</th>
-					<th>Tên bình luận</th>
-					<th>Bình luận</th>
+					<th>Name</th>
+					<th>Comment</th>
 					<th>Action</th>
 				</tr>
 			</thead>
@@ -46,7 +46,7 @@
 					<td><?php echo $result['tenbinhluan'] ?></td>
 					<td><?php echo $result['binhluan'] ?></td>
 									
-					<td><a href="?binhluanid=<?php echo $result['binhluan_id'] ?>">Xóa</a></td>
+					<td><a href="?binhluanid=<?php echo $result['binhluan_id'] ?>">Delete</a></td>
 				</tr>
 				<?php
 					}

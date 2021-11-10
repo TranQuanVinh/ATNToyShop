@@ -80,7 +80,7 @@
 								<td><?php echo $i; ?></td>
 								<td><?php echo $result['productName'] ?></td>
 								
-								<td><?php echo $fm->format_currency($result['price'])." "."VNĐ" ?></td>
+								<td><?php echo $fm->format_currency($result['price'])." "."USD" ?></td>
 								<td>
 
 									<?php echo $result['quantity'] ?>
@@ -88,7 +88,7 @@
 								</td>
 								<td><?php
 								$total = $result['price'] * $result['quantity'];
-								echo $fm->format_currency($total).' '.'VNĐ' ;
+								echo $fm->format_currency($total).' '.'USD' ;
 								 ?></td>
 								
 							</tr>
@@ -109,14 +109,14 @@
 								<th>Sub Total : </th>
 								<td><?php 
 
-									echo $fm->format_currency($subtotal).' '.'VNĐ' ;
+									echo $fm->format_currency($subtotal).' '.'USD' ;
 									Session::set('sum',$subtotal);
 									Session::set('qty',$qty);
 								?></td>
 							</tr>
 							<tr>
 								<th>VAT : </th>
-								<td>10% (<?php echo $fm->format_currency($vat = $subtotal * 0.1).' '.'VNĐ'; ?>)</td>
+								<td>10% (<?php echo $fm->format_currency($vat = $subtotal * 0.1).' '.'USD'; ?>)</td>
 							</tr>
 							<tr>
 								<th>Grand Total :</th>
@@ -124,7 +124,7 @@
 
 								$vat = $subtotal * 0.1;
 								$gtotal = $subtotal + $vat;
-								echo $fm->format_currency($gtotal).' '.'VNĐ' ;
+								echo $fm->format_currency($gtotal).' '.'USD' ;
 								?></td>
 							</tr>
 

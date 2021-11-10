@@ -49,8 +49,8 @@
                     <img src="img/livelogo.png" alt="Logo" />
 				</div>
 				<div class="floatleft middle">
-					<h1>Training with live project</h1>
-					<p>www.webextrasite.com</p>
+					<h1>ATN Company</h1>
+					<p>https://atn-toy-shop.herokuapp.com/</p>
 				</div>
                 <div class="floatright">
                     <div class="floatleft">

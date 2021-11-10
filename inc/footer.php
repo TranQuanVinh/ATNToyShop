@@ -5,7 +5,7 @@
    	  <div class="wrapper">	
 	     <div class="section group">
 				<div class="col_1_of_4 span_1_of_4">
-						<h4>Information</h4>
+						<h4>ATN Information</h4>
 						<ul>
 						<li><a href="#">About Us</a></li>
 						<li><a href="#">Customer Service</a></li>
@@ -45,7 +45,7 @@
 						<div class="social-icons">
 							<h4>Follow Us</h4>
 					   		  <ul>
-							      <li class="facebook"><a href="#" target="_blank"> </a></li>
+							      <li class="facebook"><a href="https://www.facebook.com/profile.php?id=100075014041336" target="_blank"> </a></li>
 							      <li class="twitter"><a href="#" target="_blank"> </a></li>
 							      <li class="googleplus"><a href="#" target="_blank"> </a></li>
 							      <li class="contact"><a href="#" target="_blank"> </a></li>
@@ -55,7 +55,7 @@
 				</div>
 			</div>
 			<div class="copy_right">
-				<p>Training with live project &amp; All rights Reseverd </p>
+				<p>ATN Company &amp; All rights Reseverd </p>
 		   </div>
      </div>
     </div>

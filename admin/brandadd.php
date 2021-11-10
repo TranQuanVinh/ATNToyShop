@@ -12,7 +12,7 @@
 <?php  ?>
         <div class="grid_10">
             <div class="box round first grid">
-                <h2>Thêm thương hiệu</h2>
+                <h2>Add brand</h2>
 
                <div class="block copyblock"> 
                 <?php
@@ -24,7 +24,7 @@
                     <table class="form">					
                         <tr>
                             <td>
-                                <input type="text" name="brandName" placeholder="Làm ơn thêm thương hiệu sản phẩm..." class="medium" />
+                                <input type="text" name="brandName" placeholder="Brand name..." class="medium" />
                             </td>
                         </tr>
 						<tr> 

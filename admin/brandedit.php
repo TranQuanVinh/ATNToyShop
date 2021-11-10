@@ -20,7 +20,7 @@
 <?php  ?>
         <div class="grid_10">
             <div class="box round first grid">
-                <h2>Sửa thương hiệu</h2>
+                <h2>Edit brand</h2>
 
                <div class="block copyblock"> 
                  <?php
@@ -38,7 +38,7 @@
                     <table class="form">					
                         <tr>
                             <td>
-                                <input type="text" value="<?php echo $result['brandName'] ?>" name="brandName" placeholder="Sửa thương hiệu sản phẩm..." class="medium" />
+                                <input type="text" value="<?php echo $result['brandName'] ?>" name="brandName" placeholder="Edit brand..." class="medium" />
                             </td>
                         </tr>
 						<tr> 

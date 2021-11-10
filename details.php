@@ -51,7 +51,7 @@
 					<h2><?php echo $result_details['productName'] ?></h2>
 					<p><?php echo $fm->textShorten($result_details['product_desc'],150) ?></p>					
 					<div class="price">
-						<p>Price: <span><?php echo $fm->format_currency($result_details['price'])." "."VNĐ" ?></span></p>
+						<p>Price: <span><?php echo $fm->format_currency($result_details['price'])." "."USD" ?></span></p>
 						<p>Category: <span><?php echo $result_details['catName'] ?></span></p>
 						<p>Brand:<span><?php echo $result_details['brandName']?></span></p>
 					</div>
@@ -79,7 +79,7 @@
 	
 					$login_check = Session::get('customer_login'); 
 						if($login_check){
-							echo '<input type="submit" class="buysubmit" name="compare" value="Thêm vào so sánh"/>'.'  ';
+							echo '<input type="submit" class="buysubmit" name="compare" value="Add to compare"/>'.'  ';
 							
 						}else{
 							echo '';
@@ -101,7 +101,7 @@
 					$login_check = Session::get('customer_login'); 
 						if($login_check){
 							
-							echo '<input type="submit" class="buysubmit" name="wishlist" value="Thêm vào yêu thích">';
+							echo '<input type="submit" class="buysubmit" name="wishlist" value="Add to favorites">';
 						}else{
 							echo '';
 						}
@@ -133,7 +133,7 @@
 
 			</div>
 				<div class="product-desc">
-				<h2>Nội dung sản phẩm</h2>
+				<h2>Product information</h2>
 				<?php echo $fm->textShorten($result_details['product_desc'],150) ?>
 		    </div>
 				
@@ -163,7 +163,7 @@
 		<div class="row">
 
 			<div class="col-md-8">
-			<h5>Bình luận sản phẩm</h5>
+			<h5>Comment</h5>
 			<?php
 			if(isset($binhluan_insert)){
 				echo $binhluan_insert;
@@ -171,9 +171,9 @@
 			?>
 			<form action="" method="POST">
 				<p><input type="hidden" value="<?php echo $id ?>" name="product_id_binhluan"></p>
-	 			<p><input type="text" placeholder="Điền tên" class="form-control" name="tennguoibinhluan"></p>
-	 			<p><textarea rows="5" style="resize: none;" placeholder="Bình luận...." class="form-control" name="binhluan"></textarea></p>
-	 			<p><input type="submit" name="binhluan_submit" class="btn btn-success" value="Gửi bình luận"></p>
+	 			<p><input type="text" placeholder="Name..." class="form-control" name="tennguoibinhluan"></p>
+	 			<p><textarea rows="5" style="resize: none;" placeholder="Comment...." class="form-control" name="binhluan"></textarea></p>
+	 			<p><input type="submit" name="binhluan_submit" class="btn btn-success" value="Send comment"></p>
  			</form>
  		</div>
  		</div>	
