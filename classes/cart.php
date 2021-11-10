@@ -27,7 +27,7 @@
 			$check_cart = "SELECT * FROM tbl_cart WHERE productId = '$id' AND sId ='$sId'";
 			$result_check_cart = $this->db->select($check_cart);
 			if($result_check_cart){
-				$msg = "<span class='error'>Sản phẩm đã được thêm vào</span>";
+				$msg = "<span class='error'>Product has been added</span>";
 				return $msg;
 			}else{
 
@@ -41,7 +41,7 @@
 				$query_insert = "INSERT INTO tbl_cart(productId,quantity,sId,image,price,productName) VALUES('$id','$quantity','$sId','$image','$price','$productName')";
 				$insert_cart = $this->db->insert($query_insert);
 				if($insert_cart){
-					$msg = "<span class='error'>Thêm sản phẩm thành công</span>";
+					$msg = "<span class='error'>Add successful products</span>";
 					return $msg;
 					
 				}
@@ -67,7 +67,7 @@
 					WHERE cartId = '$cartId'";
 			$result = $this->db->update($query);
 			if($result){
-				$msg = "<span class='error'>Cập nhật thành công</span>";
+				$msg = "<span class='error'>Successful update product</span>";
 				return $msg;
 			}else{
 				$msg = "<span class='error'>Product Quantity Updated Not Successfully</span>";
@@ -80,7 +80,7 @@
 			$query = "DELETE FROM tbl_cart WHERE cartId = '$cartid'";
 			$result = $this->db->delete($query);
 			if($result){
-				$msg = "<span class='error'>Xóa sản phẩm thành công</span>";
+				$msg = "<span class='error'>Successful delete product</span>";
 				return $msg;
 			
 			}
