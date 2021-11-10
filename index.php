@@ -80,7 +80,7 @@
 				$product_count = mysqli_num_rows($product_all);
 				$product_button = ceil($product_count/4);
 				$i = 1;
-				echo '<p>Trang : </p>';
+				echo '<p>Page : </p>';
 				for($i=1;$i<=$product_button;$i++){
 					?>
 					<a class="phantrang" <?php if($i==$trang){ echo 'style="background:orange"';} ?> style="margin:0 10px;" href="index.php?trang=<?php echo $i ?>"><?php echo $i ?></a>	
