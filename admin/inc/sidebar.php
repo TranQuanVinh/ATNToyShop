@@ -14,10 +14,10 @@
                         <li><a href="catlist.php">List category</a> </li>
                     </ul>
                 </li>
-                <li><a class="menuitem">Product brand</a>
+                <li><a class="menuitem">Store</a>
                     <ul class="submenu">
-                        <li><a href="brandadd.php">Add product brand</a> </li>
-                        <li><a href="brandlist.php">List product brand</a> </li>
+                        <li><a href="brandadd.php">Add store</a> </li>
+                        <li><a href="brandlist.php">List store</a> </li>
                     </ul>
                 </li>
                 <li><a class="menuitem">Product</a>

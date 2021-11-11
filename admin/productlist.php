@@ -30,7 +30,7 @@
 					<th>Product Price</th>
 					<th>Product Image</th>
 					<th>Category</th>
-					<th>Brand</th>
+					<th>Store</th>
 					<th>Description</th>
 					<th>Type</th>
 					<th>Action</th>

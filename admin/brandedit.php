@@ -20,7 +20,7 @@
 <?php  ?>
         <div class="grid_10">
             <div class="box round first grid">
-                <h2>Edit brand</h2>
+                <h2>Edit store</h2>
 
                <div class="block copyblock"> 
                  <?php

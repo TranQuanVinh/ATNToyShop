@@ -78,11 +78,11 @@
                 </tr>
 				<tr>
                     <td>
-                        <label>Brand</label>
+                        <label>Store</label>
                     </td>
                     <td>
                         <select id="select" name="brand">
-                            <option>--------Select Brand-------</option>
+                            <option>--------Select Store-------</option>
 
                              <?php
                             $brand = new brand();

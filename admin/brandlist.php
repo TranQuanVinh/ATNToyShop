@@ -10,7 +10,7 @@
 ?>
         <div class="grid_10">
             <div class="box round first grid">
-                <h2>Brand List</h2>
+                <h2>Store List</h2>
                 <div class="block">    
                 <?php
 
@@ -23,7 +23,7 @@
 					<thead>
 						<tr>
 							<th>Serial No.</th>
-							<th>Brand Name</th>
+							<th>Store Name</th>
 							<th>Action</th>
 						</tr>
 					</thead>

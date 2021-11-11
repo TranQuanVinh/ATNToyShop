@@ -53,7 +53,7 @@
 					<div class="price">
 						<p>Price: <span><?php echo $fm->format_currency($result_details['price'])." "."USD" ?></span></p>
 						<p>Category: <span><?php echo $result_details['catName'] ?></span></p>
-						<p>Brand:<span><?php echo $result_details['brandName']?></span></p>
+						<p>Store:<span><?php echo $result_details['brandName']?></span></p>
 					</div>
 				<div class="add-cart">
 					<form action="" method="post">
