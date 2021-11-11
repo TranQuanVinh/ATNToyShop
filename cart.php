@@ -125,7 +125,7 @@
 					<?php
 					}else{ 
 					?>
-						<a class="muahang" style="text-align: right;" href="index.php"> Buy product</a>
+						<a class="muahang" style="text-align: right;" href="login.php"> Buy product</a>
 					<?php
 					} 
 					?>
