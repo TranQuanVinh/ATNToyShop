@@ -1,7 +1,7 @@
 <?php
 define("DB_HOST", "remotemysql.com");
-define("DB_USER", "7GMjj9otaw");
-define("DB_PASS", "rTMw5fuM2q");
-define("DB_NAME", "7GMjj9otaw");
+define("DB_USER", "Uv2QukjZOD");
+define("DB_PASS", "IVkOMgCIQ9");
+define("DB_NAME", "Uv2QukjZOD");
 
 ?>
