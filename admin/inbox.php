@@ -69,7 +69,7 @@ include_once ($filepath.'/../helpers/format.php');
 						<tr class="odd gradeX">
 							<td><?php echo $i; ?></td>
 							<td><?php echo $fm->formatDate($result['date_order']) ?></td>
-							<td><?php echo $result['brandID'] ?></td>
+							<td><?php echo $result['brandName'] ?></td>
 							<td><?php echo $result['productName'] ?></td>
 							<td><?php echo $result['quantity'] ?></td>
 							<td><?php echo $result['price'].' '.'USD' ?></td>
