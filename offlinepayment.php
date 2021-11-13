@@ -60,8 +60,7 @@
 						<table class="tblone">
 							<tr>
 								<th width="5%">ID</th>
-								<th width="15%">Product Name</th>
-								<th width="15%">Store</th>
+								<th width="15%">Product Name</th>								
 								<th width="15%">Price</th>
 								<th width="25%">Quantity</th>
 								<th width="20%">Total Price</th>
@@ -79,7 +78,6 @@
 							<tr>
 								<td><?php echo $i; ?></td>
 								<td><?php echo $result['productName'] ?></td>
-								<td><?php echo $result['brandName'] ?></td>
 								
 								<td><?php echo $fm->format_currency($result['price'])." "."USD" ?></td>
 								<td>
