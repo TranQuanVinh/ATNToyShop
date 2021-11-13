@@ -30,6 +30,7 @@
 							<tr>
 								<th width="10%">ID</th>
 								<th width="20%">Product Name</th>
+								<th width="20%">Store</th>
 								<th width="10%">Image</th>
 								<th width="15%">Price</th>
 								<th width="15%">Quantity</th>
@@ -52,6 +53,7 @@
 							<tr>
 								<td><?php echo $i; ?></td>
 								<td><?php echo $result['productName'] ?></td>
+								<td><?php echo $result['brandName'] ?></td>
 								<td><img src="admin/uploads/<?php echo $result['image'] ?>" alt=""/></td>
 								<td><?php echo $fm->format_currency($result['price'])." "."USD" ?></td>
 								<td>
