@@ -46,7 +46,6 @@ include_once ($filepath.'/../helpers/format.php');
 						<tr>
 							<th>No.</th>
 							<th>Order Time</th>
-							<th>Store</th>
 							<th>Product</th>
 							<th>Quantity</th>
 							<th>Price</th>
