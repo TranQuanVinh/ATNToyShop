@@ -46,7 +46,6 @@ include_once ($filepath.'/../helpers/format.php');
 						<tr>
 							<th>No.</th>
 							<th>Order Time</th>
-							<th>Store</th>
 							<th>Product</th>
 							<th>Quantity</th>
 							<th>Price</th>
@@ -69,7 +68,6 @@ include_once ($filepath.'/../helpers/format.php');
 						<tr class="odd gradeX">
 							<td><?php echo $i; ?></td>
 							<td><?php echo $fm->formatDate($result['date_order']) ?></td>
-							<td><?php echo $result['brandName'] ?></td>
 							<td><?php echo $result['productName'] ?></td>
 							<td><?php echo $result['quantity'] ?></td>
 							<td><?php echo $result['price'].' '.'USD' ?></td>
