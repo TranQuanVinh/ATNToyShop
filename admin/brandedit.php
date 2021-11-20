@@ -38,7 +38,7 @@
                     <table class="form">					
                         <tr>
                             <td>
-                                <input type="text" value="<?php echo $result['brandName'] ?>" name="brandName" placeholder="Edit brand..." class="medium" />
+                                <input type="text" value="<?php echo $result['brandName'] ?>" name="brandName" placeholder="Edit store..." class="medium" />
                             </td>
                         </tr>
 						<tr> 

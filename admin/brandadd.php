@@ -24,7 +24,7 @@
                     <table class="form">					
                         <tr>
                             <td>
-                                <input type="text" name="brandName" placeholder="Brand name..." class="medium" />
+                                <input type="text" name="brandName" placeholder="Store name..." class="medium" />
                             </td>
                         </tr>
 						<tr> 
